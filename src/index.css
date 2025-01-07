@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400&family=Poppins:wght@400;600&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Navbar
+{
+  position: fixed;
+  height: 55px;
+  display:flex;
+  justify-content: space-between;
+  background-color: rgb(82 82 82);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 0 20px;
+  user-select: none;
+}
+
+.Navbar .left-section
+{
+  display: flex;
+  align-items: center;
+  left: 0;
+  margin-right: auto;
+}
+
+.Navbar .middle-section
+{
+  display: flex;
+  align-items: center;
+  margin-right: 25rem;
+  width: 200px;
+}
+
+.Navbar .middle-section .searchbox
+{
+  height: 35px;
+  width: 300px;
+  padding-left: 10px;
+  border-radius: 6px;
+  border-style: none;
+  margin-left: 4rem;
+}
+
+.searchbox::placeholder
+{
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+
+.Navbar .right-section
+{
+  display: flex;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  padding: 10px 23px;
+  list-style: none;
+}
+
+nav ul li a
+{
+  margin-left: 1.2rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover
+{
+  color: white;
+  border: 2px solid white;
+  padding: 10px 10px;
+}
+
+.navbar-image
+{
+  height: 40px;
+  width: auto;
+  margin-left: 5rem;
+}
+
+.navbar-img
+{
+  height: 40px;
+  width: auto;
+  margin-left: 1rem;
+}

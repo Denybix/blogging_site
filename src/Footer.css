@@ -1,0 +1,12 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    user-select: none;
+}
+footer p {
+    margin: 0;
+    font-size: 17px;
+}
