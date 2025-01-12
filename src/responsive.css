@@ -1,0 +1,104 @@
+/* General Styles for All Pages */
+@media (max-width: 1024px) {
+    .container, 
+    .blog-container form, 
+    .about-container, 
+    .contact-container {
+        width: 80%;
+        margin: 3rem auto;
+        padding: 1rem; /* Add padding for better spacing */
+    }
+
+    .Navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem; /* Adjust padding for better alignment */
+    }
+
+    .Navbar .middle-section {
+        margin-right: 0;
+        margin-top: 1rem; /* Add spacing between sections */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Home Page Adjustments */
+    .container {
+        width: 90%;
+        margin: 2rem auto;
+        padding: 1rem;
+    }
+
+    /* Blog Form Adjustments */
+    .blog-container form {
+        width: 90%;
+        margin: 2rem auto;
+        padding: 1rem; /* Adjust padding */
+        box-shadow: none; /* Optional: Remove shadow for a cleaner look */
+    }
+
+    .content-title-input, 
+    .blogpost-input {
+        width: 100%; /* Ensure inputs fill the available space */
+        margin-top: 1rem; /* Add spacing between inputs */
+    }
+
+    /* Contact Page Adjustments */
+    .contact-header h1 {
+        font-size: 3rem;
+    }
+
+    .contact-header p {
+        font-size: 16px;
+    }
+
+    .contact-card, 
+    .additional-info-card {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    /* Navbar Adjustments */
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li a {
+        margin: 0.5rem 0;
+        padding: 0.5rem; /* Add padding for better touch interaction */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Home Page Buttons */
+    .button {
+        font-size: 16px;
+        padding: 10px 15px;
+        text-align: center; /* Center align button text */
+    }
+
+    /* Contact Header */
+    .contact-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .contact-header p {
+        font-size: 14px;
+    }
+
+    /* Blog Form Inputs */
+    .content-title-input, 
+    .blogpost-input {
+        height: 1.5rem;
+        font-size: 14px;
+        margin-top: 0.5rem; /* Add spacing between inputs */
+    }
+
+    /* Footer Adjustments */
+    footer p {
+        font-size: 14px;
+        padding: 0.5rem; /* Add padding for better readability */
+    }
+}

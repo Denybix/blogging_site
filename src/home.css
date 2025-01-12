@@ -1,11 +1,10 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.home-body
-{
+.home-body {
     background-image: url(images/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -19,44 +18,176 @@
     padding-bottom: 60px;
 }
 
-.container
-{
+.container {
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: auto;
     justify-content: center;
     align-items: center;
-    width: 29%;
-    margin: 9rem 44rem;
+    width: 90%;
+    max-width: 600px;
+    margin: 20rem 42.6rem;
     color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     user-select: none;
+    padding: 0 20px;
 }
 
-.intro-class
-{
+.title {
+    text-align: center;
+}
+
+.intro-class {
     margin-top: 3rem;
     text-align: center;
 }
 
-.btn-container
-{
+.btn-container {
     margin-top: 3rem;
 }
 
-.button
-{
+.button {
     border: 2px solid white;
-    padding: 20px 20px;
+    padding: 15px 20px;
     border-radius: 10px;
     color: white;
-    font-size: 20px;
-    transition: padding 0.2s ease-out;
+    font-size: 18px;
+    transition: all 0.2s ease-out;
     text-decoration: none;
+    display: inline-block;
 }
 
-.button:hover
-{
+.button:hover {
     cursor: pointer;
-    padding: 25px;
+    padding: 15px 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* iPad Pro 12.9" */
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .container {
+        margin: 32rem auto;
+        max-width: 800px;
+    }
+
+    .title h1 {
+        font-size: 32px;
+    }
+
+    .intro-class {
+        margin-top: 4rem;
+    }
+
+    .intro-class p {
+        font-size: 20px;
+        line-height: 1.6;
+        max-width: 600px;
+    }
+
+    .button {
+        font-size: 20px;
+        padding: 18px 28px;
+    }
+
+    .button:hover {
+        padding: 18px 32px;
+    }
+}
+
+/* iPad Air and iPad Mini */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        margin: 20rem auto;
+        max-width: 700px;
+    }
+
+    .title h1 {
+        font-size: 28px;
+    }
+
+    .intro-class {
+        margin-top: 3.5rem;
+    }
+
+    .intro-class p {
+        font-size: 18px;
+        line-height: 1.5;
+        max-width: 500px;
+    }
+
+    .button {
+        font-size: 18px;
+        padding: 15px 25px;
+    }
+
+    .button:hover {
+        padding: 15px 30px;
+    }
+}
+
+/* iPad Portrait */
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+    .container {
+        margin: 20rem auto;
+    }
+
+    .intro-class p {
+        padding: 0 20px;
+    }
+}
+
+/* Regular Mobile Devices */
+@media screen and (max-width: 767px) {
+    .container {
+        margin: 20rem auto;
+    }
+
+    .title h1 {
+        font-size: 24px;
+    }
+
+    .intro-class p {
+        font-size: 16px;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 12px 18px;
+    }
+
+    .button:hover {
+        padding: 12px 22px;
+    }
+}
+
+/* Small Mobile Devices */
+@media screen and (max-width: 480px) {
+    .container {
+        margin: 20rem auto;
+    }
+
+    .title h1 {
+        font-size: 20px;
+    }
+
+    .intro-class {
+        margin-top: 2rem;
+    }
+
+    .intro-class p {
+        font-size: 14px;
+    }
+
+    .btn-container {
+        margin-top: 2rem;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+
+    .button:hover {
+        padding: 10px 20px;
+    }
 }
