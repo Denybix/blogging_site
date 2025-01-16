@@ -63,7 +63,6 @@
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* iPad Pro 12.9" */
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
     .container {
         margin: 32rem auto;
@@ -94,7 +93,6 @@
     }
 }
 
-/* iPad Air and iPad Mini */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .container {
         margin: 20rem auto;
@@ -125,7 +123,6 @@
     }
 }
 
-/* iPad Portrait */
 @media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
     .container {
         margin: 20rem auto;
@@ -136,7 +133,6 @@
     }
 }
 
-/* Regular Mobile Devices */
 @media screen and (max-width: 767px) {
     .container {
         margin: 20rem auto;
@@ -160,7 +156,6 @@
     }
 }
 
-/* Small Mobile Devices */
 @media screen and (max-width: 480px) {
     .container {
         margin: 20rem auto;
