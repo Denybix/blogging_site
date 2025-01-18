@@ -171,10 +171,11 @@
 
     .intro-class p {
         font-size: 14px;
+        margin-top:0rem;
     }
 
     .btn-container {
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .button {
