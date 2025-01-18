@@ -131,6 +131,11 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+  body
+  {
+    overflow-x:hidden;
+  }
+  
   .contact-header {
     margin-top: 1rem;
   }
