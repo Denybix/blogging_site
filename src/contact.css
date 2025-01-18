@@ -132,7 +132,7 @@ body {
 
 @media screen and (max-width: 480px) {
   .contact-header {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   
   .contact-header h1 {
