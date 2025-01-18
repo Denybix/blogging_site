@@ -145,6 +145,7 @@ body {
 
   .contact-container {
     padding: 0.5rem;
+    margin-top: 0;
   }
 
   .contact-card,
@@ -152,6 +153,10 @@ body {
     padding: 1.5rem;
   }
 
+  .additional-info-card {
+    margin-top: 1rem;  
+  }
+  
   .contact-card h2,
   .additional-info-card h2 {
     font-size: 1.3rem;
