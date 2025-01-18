@@ -134,9 +134,7 @@ body {
   .contact-header {
     margin-top: 3rem;
   }
-  .contact-page {
-    overflow: auto; 
-  }
+  
   .contact-header h1 {
     font-size: 2rem;
   }
